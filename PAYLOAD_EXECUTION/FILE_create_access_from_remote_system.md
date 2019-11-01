@@ -4,7 +4,7 @@
 This rule prevents modifying local files from a remote system.
 
 ## Rule TCL
-```
+```tcl
 Rule {
     Process {
         Include OBJECT_NAME {

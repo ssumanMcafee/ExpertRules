@@ -4,7 +4,7 @@
 This rule detects malware (non-trusted process) that attempts to write into registry’s *AppInit_DLLs* entry to inject custom DLL into target processes . A DLL added into this registry entry will force user32.dll to load the DLL module at process startup.
 
 ## Rule TCL
-```
+```tcl
 Rule {
     Initiator {
         Match PROCESS {

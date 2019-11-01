@@ -4,7 +4,7 @@
 This rule detects when the Windows Subsystem for Linux BASH command line is being launched with admin rights.
 
 ## Rule TCL
-```
+```tcl
 Rule {
     Process {
         Include GROUP_SID {

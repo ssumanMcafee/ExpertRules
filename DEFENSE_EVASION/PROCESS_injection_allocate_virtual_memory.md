@@ -4,7 +4,7 @@
 This rule detects when a non-VTP trusted process attempts to allocate virtual memory in the address space of a remote process. This is step is part of different code injection techniques used by memory resident malware.
 
 ## Rule TCL
-```
+```tcl
 Rule {
     Process {
         Include VTP_TRUST false

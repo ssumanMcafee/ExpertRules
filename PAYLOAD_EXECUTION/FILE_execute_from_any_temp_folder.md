@@ -4,7 +4,7 @@
 This rule prevents executing files from any temp folder by using a set of web browsers and email clients.
 
 ## Rule TCL
-```
+```tcl
 Rule {
 
     # Get the list of temp folders and temp internet folders for all users that have 
