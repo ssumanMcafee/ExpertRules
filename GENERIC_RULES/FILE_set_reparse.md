@@ -4,7 +4,7 @@
 This rule prevents from creating a reparse point in a symbolic link called **testfilelink.txt** in the path **C:\\Users\\Admin\\Downloads\\** using **cmd**.
 
 ## Rule TCL
-```
+```tcl
 Rule {
     Process {
         Include OBJECT_NAME {

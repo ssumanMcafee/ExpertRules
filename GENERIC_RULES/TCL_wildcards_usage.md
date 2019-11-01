@@ -4,7 +4,7 @@
 This rule prevents creating a file with a name like **testfile1.txt** in any path using **cmd**.
 
 ## Rule TCL
-```
+```tcl
 Rule {
     Process {
         Include OBJECT_NAME {

@@ -4,7 +4,7 @@
 This rule prevents creating a file called **testfile.txt** in the path **C:\\Users\\Admin\\Downloads\\** or **C:\\Users\\Admin\\Documents\\** or **C:\\Users\\Admin\\Desktop\\** using **cmd**.
 
 ## Rule TCL
-```
+```tcl
 Rule {
     
     lappend listOfFolders "c:\\Users\\Admin\\Downloads\\"

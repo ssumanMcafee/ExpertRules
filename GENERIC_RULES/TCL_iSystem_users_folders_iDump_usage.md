@@ -4,7 +4,7 @@
 This rule prevents from creating a file with the name **testfile.txt** within a user Temp folder using **Windows Explorer**.
 
 ## Rule TCL
-```
+```tcl
 Rule {
 
     set temp_folders [iSystem users_folders -no_defaults Temp]

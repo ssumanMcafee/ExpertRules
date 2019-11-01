@@ -4,7 +4,7 @@
 This rule prevents deleting a file called **testfile.txt** in the path **C:\\Users\\Admin\\Downloads\\** using **cmd**.
 
 ## Rule TCL
-```
+```tcl
 Rule {
     Process {
         Include OBJECT_NAME {

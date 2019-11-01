@@ -4,7 +4,7 @@
 This rule prevents from renaming a file called **origin.txt** to the name **destination.txt** in any path by using **Windows Explorer**.
 
 ## Rule TCL
-```
+```tcl
 Rule {
     Process {
         Include OBJECT_NAME {

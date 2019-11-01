@@ -4,7 +4,7 @@
 This rule detects when **Windows Explorer** launches **cmd**, and then from **cmd** is launched **calc**.
 
 ## Rule TCL
-```
+```tcl
 Rule {
     Process {
         Include OBJECT_NAME { -v explorer.exe }

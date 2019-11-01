@@ -4,7 +4,7 @@
 This rule prevents from creating a new **multi string** registry value with a data like **test\0multi\0string\0\0** or assign such data to an already existing one in the hive **HKEY_LOCAL_MACHINE\\SOFTWARE\\TestRegvalData\\** using any program.
 
 ## Rule TCL
-```
+```tcl
 Rule {
     Process {
         Include OBJECT_NAME { -v ** }

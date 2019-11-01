@@ -4,7 +4,7 @@
 This Rule detects the creation of script files.
 
 ## Rule TCL
-```
+```tcl
 Rule {
     Process {
         Include OBJECT_NAME {

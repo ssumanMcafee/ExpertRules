@@ -4,7 +4,7 @@
 This rule prevents the user **Admin** from executing the file called **notepad.exe** in the path **C:\\Windows\\**.
 
 ## Rule TCL
-```
+```tcl
 Rule {
     Process {
         Include USER_NAME {

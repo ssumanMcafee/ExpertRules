@@ -4,7 +4,7 @@
 This rule prevents reading a file called **testfile.txt** in the path **C:\\Users\\Admin\\Downloads\\** using **Notepad**.
 
 ## Rule TCL
-```
+```tcl
 Rule {
     Process {
         Include OBJECT_NAME {

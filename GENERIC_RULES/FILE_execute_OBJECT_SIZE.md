@@ -4,7 +4,7 @@
 This rule prevents **explorer.exe** from executing the file called **notepad.exe** in the path **C:\\Windows\\** taking also in count the size of the executable.
 
 ## Rule TCL
-```
+```tcl
 Rule {
     Process {
         Include OBJECT_NAME {

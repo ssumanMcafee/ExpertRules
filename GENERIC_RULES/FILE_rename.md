@@ -4,7 +4,7 @@
 This rule prevents from renaming a file called **testfile.txt** in the path **C:\\Users\\Admin\\Downloads\\** using **Windows Explorer**.
 
 ## Rule TCL
-```
+```tcl
 Rule {
     Process {
         Include OBJECT_NAME {

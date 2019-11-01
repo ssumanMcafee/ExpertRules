@@ -4,7 +4,7 @@
 This rule prevents from starting **notepad** using **Windows Explorer**.
 
 ## Rule TCL
-```
+```tcl
 Rule {
     Process {
         Include OBJECT_NAME {

@@ -4,7 +4,7 @@
 This rule protects from connecting to the named pipe called **\\\\.\\pipe\\testpipe** by using using **PowerShell**.
 
 ## Rule TCL
-```
+```tcl
 Rule {
     Process {
         Include OBJECT_NAME {
@@ -26,7 +26,7 @@ Rule {
 1. Add and enforce the rule to the exploit prevention policy.
 2. Open Windows PowerShell ISE.
 3. Copy, paste and run the following script:<br>
-```
+```powershell
 $pipe=new-object System.IO.Pipes.NamedPipeServerStream("\\.\pipe\testpipe");
 'Created server side of "\\.\pipe\testpipe"'
 $pipe.WaitForConnection(); 
@@ -44,7 +44,7 @@ Note: You will realize that the execution will be waiting for connections.
 
 4. Open a Windows PowerShell console.
 5. Copy, paste and run the following script:<br>
-```
+```powershell
 $pipe = new-object System.IO.Pipes.NamedPipeClientStream("\\.\pipe\testpipe");
 $pipe.Connect(); 
  

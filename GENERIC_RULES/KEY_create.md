@@ -4,7 +4,7 @@
 This rule prevents from creating a registry key with a name like **testkey** in the hive **HKEY_LOCAL_MACHINE\\SOFTWARE\\** using the **Registry Editor**.
 
 ## Rule TCL
-```
+```tcl
 Rule {
     Process {
         Include OBJECT_NAME {

@@ -4,7 +4,7 @@
 This rule prevents creating a file called **testfile.txt** in any user profile folder by using **cmd**.
 
 ## Rule TCL
-```
+```tcl
 Rule {
 
     set users_list [ iUser list ]

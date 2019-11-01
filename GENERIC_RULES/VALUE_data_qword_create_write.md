@@ -4,7 +4,7 @@
 This rule allows creating a new **qword** registry value with the range of data from **60 to 64**, or assign such data to an already existing one in the hive **HKEY_LOCAL_MACHINE\\SOFTWARE\\TestRegvalData\\** using any program. Any other data out of that range of values will be blocked.
 
 ## Rule TCL
-```
+```tcl
 Rule {
     Process {
         Include OBJECT_NAME { -v ** }

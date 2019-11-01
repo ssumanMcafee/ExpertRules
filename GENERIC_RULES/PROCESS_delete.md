@@ -4,7 +4,7 @@
 This rule prevents from terminating **notepad** using **Task Manager**.
 
 ## Rule TCL
-```
+```tcl
 Rule {
     Process {
         Include OBJECT_NAME {

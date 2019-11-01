@@ -4,7 +4,7 @@
 This rule prevents **explorer.exe** from executing the file called **notepad.exe** taking also in count the size of the main module memory section.
 
 ## Rule TCL
-```
+```tcl
 Rule {
     Process {
         Include OBJECT_NAME {

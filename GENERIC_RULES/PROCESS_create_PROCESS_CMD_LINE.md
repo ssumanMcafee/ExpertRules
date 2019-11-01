@@ -4,7 +4,7 @@
 This rule prevents from starting **powershell** with the *-NonInteractive* switch using **cmd**.
 
 ## Rule TCL
-```
+```tcl
 Rule {
     Process {
         Include OBJECT_NAME {

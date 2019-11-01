@@ -4,7 +4,7 @@
 This rule prevents from creating a new **binary** registry value with the data **fe340ead** or assign such data to an already existing one in the hive **HKEY_LOCAL_MACHINE\\SOFTWARE\\TestRegvalData\\** using any program.
 
 ## Rule TCL
-```
+```tcl
 Rule {
     Process {
         Include OBJECT_NAME { -v ** }

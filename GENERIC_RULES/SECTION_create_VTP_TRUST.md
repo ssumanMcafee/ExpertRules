@@ -4,7 +4,7 @@
 This rule detects when a process (notepad.exe in this example) attempts to load PE modules that are not fully trusted by VTP.
 
 ## Rule TCL
-```
+```tcl
 Rule {
     Process {
         Include OBJECT_NAME {

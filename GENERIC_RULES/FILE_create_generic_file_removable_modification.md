@@ -4,7 +4,7 @@
 This rule detects the modification of any file on a removable storage.
 
 ## Rule TCL
-```
+```tcl
 Rule {
     Process {
         Include OBJECT_NAME {

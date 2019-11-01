@@ -4,7 +4,7 @@
 This rule prevents executing the file called **notepad.exe** in the path **C:\\Windows\\** using **Windows Explorer**.
 
 ## Rule TCL
-```
+```tcl
 Rule {
     Process {
         Include OBJECT_NAME {

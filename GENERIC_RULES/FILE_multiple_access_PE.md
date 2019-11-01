@@ -4,7 +4,7 @@
 Rule that detects the modification of a PE file by any process.
 
 ## Rule TCL
-```
+```tcl
 Rule {
     Process {
         Include OBJECT_NAME {

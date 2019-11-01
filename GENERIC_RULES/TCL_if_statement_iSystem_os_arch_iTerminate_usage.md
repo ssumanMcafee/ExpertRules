@@ -4,7 +4,7 @@
 This rule prevents creating a file called **testfile.txt** in any path by using **cmd**. If the OS architecture is the one specified in the *if* statement, the rule will be enforced. If not, the **iTerminate** message will be logged and the rule syntax check will fail.
 
 ## Rule TCL
-```
+```tcl
 Rule {
     
     set os_architecture [ iSystem os_arch ]
