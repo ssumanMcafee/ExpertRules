@@ -15,7 +15,6 @@ Rule {
         Match PROCESS {
             Exclude OBJECT_NAME {
                 -v "%windir%\\system32\\werfault.exe"
-                -v "%windir%\\system32\\conhost.exe"
                 -v "%windir%\\system32\\dnscmd.exe"
             }
             Include -access "CREATE"
