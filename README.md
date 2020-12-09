@@ -18,7 +18,7 @@ McAfee recommends that all the Expert rules listed under *MCAFEE* and *COMMUNITY
 
 The repository license is Apache 2.0. Making a contribution to this repository means you are licensing the contribution under the repository license.
 
-Pull requests are accepted and encouraged so users can share their approaches for detecting different events. For the benefit of the community, authors are required to document the rules with the fields described below and place them in the *COMMUNITY* folder. Any pull requests not conforming to the above best practices will be rejected.
+Pull requests are accepted and encouraged so users can share their approaches for detecting different events. For the benefit of the community, authors are required to document the rules with the fields described below and place them in the *COMMUNITY* folder. Pull requests have to contain a markdown file for each rule in the pull request with the following fields. Any pull requests not conforming to the below best practices will be rejected.
 
 * **Title**: A short and descriptive title for the rule. e.g. *REMOTE FILE EXECUTION PROTECTION RULE*.
 
