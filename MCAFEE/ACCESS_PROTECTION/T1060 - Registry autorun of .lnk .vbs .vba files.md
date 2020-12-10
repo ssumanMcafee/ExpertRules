@@ -7,7 +7,7 @@ McAfee
 This rule trigger indicates an attempt to execute programs at user logon. 
 
 ## Rule Class 
-Processes
+Registry
 
 ## Rule TCL
 ```tcl
