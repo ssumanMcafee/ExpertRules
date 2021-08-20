@@ -48,6 +48,6 @@ Documentation for the rule language can be found [here](https://docs.mcafee.com/
 * **Trigger**: Some steps to trigger the rule and verify that it actually works. You can put a reference here to any public and safe tool. 
 
 * **Tested Platforms**: Provide the tested platform information like the OS version, OS architecture, Application name, Application version, Endpoint Security Product version, etc. 
-For Example: OS: Windows 10 build 19041, Architecture: 64 bit, Application Name: Microsoft Edge, Application Version: 1.1.1.1, Endpoint Security version 10.7.0.1234
+For Example: OS: Windows-10 build 19041, Architecture: 64 bit, Application Name: Microsoft Edge, Application Version: 1.1.1.1, Endpoint Security version 10.7.0.1234
 
 * **Notes**: Here is the place to add some clarifications related to the rule, how it works related to the OS, limitations (if any), references to any documentation that could help to understand it, etc.
